@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: tomato;
+    height: 10vh;
+    max-width: 100%;
+    padding: 20px;
+}
+
+ul{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+li a{
+    text-decoration: none;
+    color: lightblue;
+}
+p{
+    color: navy;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.main{
+    margin: 130px 50px ;
+    animation: showRight 1s ease forwards;
+    animation-delay: 0ms
+    ;
+}
+
+h1, p{
+    padding: 2px;
+}
